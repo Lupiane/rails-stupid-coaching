@@ -1,0 +1,14 @@
+<div class="container">
+  <div>
+    <h1>Conversations with the Coach</h1>
+
+    <h3> You said: </h3>
+    <p><%= @query %></p>
+
+    <h3> Coach says: </h3>
+    <p> <%= @coach_answer %></p>
+  </div>
+  <div class="link">
+    <%= link_to "Ask a new question", ask_path %>
+  </div>
+</div>
